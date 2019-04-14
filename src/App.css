@@ -9,18 +9,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--primaryBackground);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--primaryTextColor);
 }
 
-.App-link {
-  color: #61dafb;
+.App-header .switch {
+  position: absolute;
+  top: 10px;
+  right: 40px;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +32,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+:root {
+  --primaryBackground: #ffffff;
+  --primaryTextColor: #000000;
+}
+
+
+[data-theme='dark'] {
+    --primaryBackground: #000000;
+    --primaryTextColor: #ffffff;
 }
