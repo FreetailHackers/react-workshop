@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar/SearchBar.js';
+import Card from './components/Card/Card.js';
 
 // You can think of this as your 'main'
 // The highest layer of abstraction made up of smaller components is our App.js

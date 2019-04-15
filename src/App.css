@@ -37,12 +37,12 @@
 
 
 :root {
-  --primaryBackground: #ffffff;
-  --primaryTextColor: #000000;
+  --primaryBackground: #eceff1;
+  --primaryTextColor: #263238;
 }
 
 
 [data-theme='dark'] {
-    --primaryBackground: #000000;
+    --primaryBackground: #263238;
     --primaryTextColor: #ffffff;
 }

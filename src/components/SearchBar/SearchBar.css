@@ -1,4 +1,5 @@
-.nav-bar {
-    height: 1000px;
-    line-height: 30px;
+.SearchBar {
+    width: 600px;
+    position: absolute;
+    top: 110px;
 }
